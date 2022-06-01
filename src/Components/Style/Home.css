@@ -1,0 +1,13 @@
+#cards {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-around;
+  padding: 0 0.2em;
+  align-items: space-evenly;
+  row-gap: 0.4em;
+}
+
+#cards children {
+  margin: 0.2em 0.2em;
+}
